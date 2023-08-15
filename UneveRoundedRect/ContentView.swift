@@ -37,6 +37,7 @@ struct ContentView: View {
 //                style: .continuous)
 //            .frame(width: 300, length: 100)
 //            .foregroundStyle(.pink)
+//        https://www.appcoda.com/swiftui-unevenroundedrectangle/?ck_subscriber_id=694325112&utm_source=convertkit&utm_medium=email&utm_campaign=Introducing+SwiftUI+UnevenRoundedRectangle+in+iOS+17%20-%2011477535
         }
         .padding()
     }
