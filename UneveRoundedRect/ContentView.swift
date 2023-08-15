@@ -15,17 +15,28 @@ struct ContentView: View {
                 .cornerRadius(10.0)
             RoundedRectangle(cornerRadius: 25.0)
                 .foregroundColor(.purple)
-            UnevenRoundedRectangle(cornerRadii: .init(topLeading: 50, topTrailing: 50))
-                            .fill(.orange)
-                            .frame(width: 200, height: 200)
-            UnevenRoundedRectangle(cornerRadii: .init(
-                topLeading: 50.0,
-                bottomLeading: 10.0,
-                bottomTrailing: 50.0,
-                topTrailing: 30.0),
-                style: .continuous)
-            .frame(width: 300, length: 100)
-            .foregroundStyle(.pink)
+            Capsule()
+                            .fill(.green)
+                            .frame(width: 100, height: 50)
+
+                        Ellipse()
+                            .fill(.blue)
+                            .frame(width: 100, height: 50)
+
+                        Circle()
+                            .fill(.white)
+                            .frame(width: 100, height: 50)
+//            UnevenRoundedRectangle(cornerRadii: .init(topLeading: 50, topTrailing: 50))
+//                            .fill(.orange)
+//                            .frame(width: 200, height: 200)
+//            UnevenRoundedRectangle(cornerRadii: .init(
+//                topLeading: 50.0,
+//                bottomLeading: 10.0,
+//                bottomTrailing: 50.0,
+//                topTrailing: 30.0),
+//                style: .continuous)
+//            .frame(width: 300, length: 100)
+//            .foregroundStyle(.pink)
         }
         .padding()
     }
